@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Verilog programs/encoder8to3/encoder8to3_test_isim_beh.exe" -prj "E:/Verilog programs/encoder8to3/encoder8to3_test_beh.prj" "work.encoder8to3_test" "work.glbl" 

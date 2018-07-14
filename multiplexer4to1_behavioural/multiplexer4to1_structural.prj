@@ -1,0 +1,2 @@
+verilog work "../multiplexer2to1/multiplexer2to1.v"
+verilog work "multiplexer4to1_structural.v"

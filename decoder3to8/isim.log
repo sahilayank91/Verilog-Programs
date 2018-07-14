@@ -1,0 +1,60 @@
+ISim log file
+Running: E:\Verilog programs\decoder3to8\decoder3to8_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Verilog programs/decoder3to8/decoder3to8_test_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+x = 0,y = 0,z = 0
+y7 = 0,y6 = 0, y5 = 0,y4 = 0,y3 = 0,y2 = 0,y1 = 1,y0 = 0
+
+y7 = 0,y6 = 0, y5 = 0,y4 = 0,y3 = 0,y2 = 1,y1 = 0,y0 = 0
+
+y7 = 0,y6 = 0, y5 = 0,y4 = 0,y3 = 1,y2 = 0,y1 = 0,y0 = 0
+
+y7 = 0,y6 = 0, y5 = 0,y4 = 1,y3 = 0,y2 = 0,y1 = 0,y0 = 0
+
+y7 = 0,y6 = 0, y5 = 1,y4 = 0,y3 = 0,y2 = 0,y1 = 0,y0 = 0
+
+y7 = 0,y6 = 1, y5 = 0,y4 = 0,y3 = 0,y2 = 0,y1 = 0,y0 = 0
+
+y7 = 1,y6 = 0, y5 = 0,y4 = 0,y3 = 0,y2 = 0,y1 = 0,y0 = 0
+
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+x = 0,y = 0,z = 0
+y7 = 0,y6 = 0, y5 = 0,y4 = 0,y3 = 0,y2 = 0,y1 = 0,y0 = 1
+
+x = 0,y = 0,z = 1
+y7 = 0,y6 = 0, y5 = 0,y4 = 0,y3 = 0,y2 = 0,y1 = 1,y0 = 0
+
+x = 0,y = 1,z = 0
+y7 = 0,y6 = 0, y5 = 0,y4 = 0,y3 = 0,y2 = 1,y1 = 0,y0 = 0
+
+x = 0,y = 1,z = 1
+y7 = 0,y6 = 0, y5 = 0,y4 = 0,y3 = 1,y2 = 0,y1 = 0,y0 = 0
+
+x = 1,y = 0,z = 0
+y7 = 0,y6 = 0, y5 = 0,y4 = 1,y3 = 0,y2 = 0,y1 = 0,y0 = 0
+
+x = 1,y = 0,z = 1
+y7 = 0,y6 = 0, y5 = 1,y4 = 0,y3 = 0,y2 = 0,y1 = 0,y0 = 0
+
+x = 1,y = 1,z = 0
+y7 = 0,y6 = 1, y5 = 0,y4 = 0,y3 = 0,y2 = 0,y1 = 0,y0 = 0
+
+x = 1,y = 1,z = 1
+y7 = 1,y6 = 0, y5 = 0,y4 = 0,y3 = 0,y2 = 0,y1 = 0,y0 = 0
+

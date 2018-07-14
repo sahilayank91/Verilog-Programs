@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Verilog programs/mux_behavioural/twobitmux_test_isim_beh.exe" -prj "E:/Verilog programs/mux_behavioural/twobitmux_test_beh.prj" "work.twobitmux_test" "work.glbl" 

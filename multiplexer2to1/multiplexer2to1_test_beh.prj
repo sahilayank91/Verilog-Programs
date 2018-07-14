@@ -1,0 +1,3 @@
+verilog work "multiplexer2to1.v"
+verilog work "multiplexer2to1_test.v"
+verilog work "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,33 @@
+ISim log file
+Running: E:\Verilog programs\carrylookahead_adder\carrylookahead_adder_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Verilog programs/carrylookahead_adder/carrylookahead_adder_test_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   0 A=0000 B=0000 Cin=0 : Sum=zzzz Cout=x PG=x GG=x
+time=                  10 A=0001 B=0000 Cin=0 : Sum=zzzz Cout=x PG=x GG=x
+time=                  20 A=0100 B=0011 Cin=0 : Sum=zzzz Cout=x PG=x GG=x
+time=                  30 A=1101 B=1010 Cin=1 : Sum=zzzz Cout=x PG=x GG=x
+time=                  40 A=1110 B=1001 Cin=0 : Sum=zzzz Cout=x PG=x GG=x
+time=                  50 A=1111 B=1010 Cin=0 : Sum=zzzz Cout=x PG=x GG=x
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   0 A=0000 B=0000 Cin=0 : Sum=xxxx Cout=x PG=x GG=x
+time=                  10 A=0001 B=0000 Cin=0 : Sum=xxxx Cout=x PG=x GG=x
+time=                  20 A=0100 B=0011 Cin=0 : Sum=xxxx Cout=x PG=x GG=x
+time=                  30 A=1101 B=1010 Cin=1 : Sum=xxxx Cout=x PG=x GG=x
+time=                  40 A=1110 B=1001 Cin=0 : Sum=xxxx Cout=x PG=x GG=x
+time=                  50 A=1111 B=1010 Cin=0 : Sum=xxxx Cout=x PG=x GG=x

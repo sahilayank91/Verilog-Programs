@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Verilog programs/carrylookahead_adder/carrylookahead_adder_test_isim_beh.exe" -prj "E:/Verilog programs/carrylookahead_adder/carrylookahead_adder_test_beh.prj" "work.carrylookahead_adder_test" "work.glbl" 

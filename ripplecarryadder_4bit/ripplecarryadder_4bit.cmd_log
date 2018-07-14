@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/Verilog programs/ripplecarryadder_4bit/ripplecarryadder_4bit.xst" -ofn "E:/Verilog programs/ripplecarryadder_4bit/ripplecarryadder_4bit.syr" 
+xst -intstyle ise -ifn "E:/Verilog programs/ripplecarryadder_4bit/ripplecarryadder_4bit.xst" -ofn "E:/Verilog programs/ripplecarryadder_4bit/ripplecarryadder_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ripplecarryadder_4bit.ngc" ripplecarryadder_4bit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ripplecarryadder_4bit_map.ncd ripplecarryadder_4bit.ngd ripplecarryadder_4bit.pcf 
+par -w -intstyle ise -ol high -mt off ripplecarryadder_4bit_map.ncd ripplecarryadder_4bit.ncd ripplecarryadder_4bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ripplecarryadder_4bit.twx ripplecarryadder_4bit.ncd -o ripplecarryadder_4bit.twr ripplecarryadder_4bit.pcf 

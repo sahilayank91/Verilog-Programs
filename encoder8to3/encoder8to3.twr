@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml encoder8to3.twx encoder8to3.ncd -o encoder8to3.twr
+encoder8to3.pcf
+
+Design file:              encoder8to3.ncd
+Physical constraint file: encoder8to3.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+d<1>           |cout<0>        |    7.105|
+d<2>           |cout<0>        |    6.786|
+d<2>           |cout<1>        |    7.276|
+d<3>           |cout<0>        |    6.763|
+d<3>           |cout<1>        |    6.991|
+d<4>           |cout<0>        |    6.383|
+d<4>           |cout<1>        |    6.795|
+d<4>           |cout<2>        |    7.041|
+d<5>           |cout<1>        |    6.586|
+d<5>           |cout<2>        |    6.762|
+d<6>           |cout<0>        |    6.359|
+d<6>           |cout<1>        |    6.386|
+d<6>           |cout<2>        |    6.472|
+d<7>           |cout<0>        |    6.897|
+d<7>           |cout<1>        |    7.109|
+d<7>           |cout<2>        |    7.258|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Feb 18 14:51:57 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 160 MB
+
+
+

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/Verilog programs/full_subtractor/full_subtractor.xst" -ofn "E:/Verilog programs/full_subtractor/full_subtractor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "full_subtractor.ngc" full_subtractor.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_subtractor_map.ncd full_subtractor.ngd full_subtractor.pcf 
+par -w -intstyle ise -ol high -mt off full_subtractor_map.ncd full_subtractor.ncd full_subtractor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml full_subtractor.twx full_subtractor.ncd -o full_subtractor.twr full_subtractor.pcf 

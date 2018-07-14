@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Verilog programs/decoder3to8/decoder3to8_test_isim_beh.exe" -prj "E:/Verilog programs/decoder3to8/decoder3to8_test_beh.prj" "work.decoder3to8_test" "work.glbl" 

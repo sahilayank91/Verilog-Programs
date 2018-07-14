@@ -1,0 +1,21 @@
+Running: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Verilog programs/encoder8to3/encoder8to3_test_isim_beh.exe -prj E:/Verilog programs/encoder8to3/encoder8to3_test_beh.prj work.encoder8to3_test work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Verilog programs/encoder8to3/encoder8to3.v" into library work
+Analyzing Verilog file "E:/Verilog programs/encoder8to3/encoder8to3_test.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 157480 KB
+Fuse CPU Usage: 249 ms
+Compiling module encoder8to3
+Compiling module encoder8to3_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable E:/Verilog programs/encoder8to3/encoder8to3_test_isim_beh.exe
+Fuse Memory Usage: 161928 KB
+Fuse CPU Usage: 265 ms

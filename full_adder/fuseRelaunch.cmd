@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Verilog programs/full_adder/half_adder_isim_beh.exe" -prj "E:/Verilog programs/full_adder/half_adder_beh.prj" "work.half_adder" "work.glbl" 

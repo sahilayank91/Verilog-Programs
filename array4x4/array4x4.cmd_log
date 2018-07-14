@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/Verilog programs/array4x4/array4x4.xst" -ofn "E:/Verilog programs/array4x4/array4x4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "array4x4.ngc" array4x4.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o array4x4_map.ncd array4x4.ngd array4x4.pcf 
+par -w -intstyle ise -ol high -mt off array4x4_map.ncd array4x4.ncd array4x4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml array4x4.twx array4x4.ncd -o array4x4.twr array4x4.pcf 

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/Verilog programs/multiplexer4to1_behavioural/multiplexer4to1_structural.xst" -ofn "E:/Verilog programs/multiplexer4to1_behavioural/multiplexer4to1_structural.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "multiplexer4to1_structural.ngc" multiplexer4to1_structural.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiplexer4to1_structural_map.ncd multiplexer4to1_structural.ngd multiplexer4to1_structural.pcf 
+par -w -intstyle ise -ol high -mt off multiplexer4to1_structural_map.ncd multiplexer4to1_structural.ncd multiplexer4to1_structural.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiplexer4to1_structural.twx multiplexer4to1_structural.ncd -o multiplexer4to1_structural.twr multiplexer4to1_structural.pcf 

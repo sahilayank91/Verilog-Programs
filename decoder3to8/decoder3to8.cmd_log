@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/Verilog programs/decoder3to8/decoder3to8.xst" -ofn "E:/Verilog programs/decoder3to8/decoder3to8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "decoder3to8.ngc" decoder3to8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder3to8_map.ncd decoder3to8.ngd decoder3to8.pcf 
+par -w -intstyle ise -ol high -mt off decoder3to8_map.ncd decoder3to8.ncd decoder3to8.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml decoder3to8.twx decoder3to8.ncd -o decoder3to8.twr decoder3to8.pcf 

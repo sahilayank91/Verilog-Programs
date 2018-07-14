@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "E:/Verilog programs/mux_4bit/mux4_1.xst" -ofn "E:/Verilog programs/mux_4bit/mux4_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mux4_1.ngc" mux4_1.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux4_1_map.ncd mux4_1.ngd mux4_1.pcf 

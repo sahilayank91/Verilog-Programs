@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/Verilog programs/multiplexer2to1/multiplexer2to1.xst" -ofn "E:/Verilog programs/multiplexer2to1/multiplexer2to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "multiplexer2to1.ngc" multiplexer2to1.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiplexer2to1_map.ncd multiplexer2to1.ngd multiplexer2to1.pcf 
+par -w -intstyle ise -ol high -mt off multiplexer2to1_map.ncd multiplexer2to1.ncd multiplexer2to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiplexer2to1.twx multiplexer2to1.ncd -o multiplexer2to1.twr multiplexer2to1.pcf 

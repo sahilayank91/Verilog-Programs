@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "E:/Verilog programs/test_prep/test_prep.xst" -ofn "E:/Verilog programs/test_prep/test_prep.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "test_prep.ngc" test_prep.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_prep_map.ncd test_prep.ngd test_prep.pcf 
+par -w -intstyle ise -ol high -mt off test_prep_map.ncd test_prep.ncd test_prep.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_prep.twx test_prep.ncd -o test_prep.twr test_prep.pcf 
+xst -intstyle ise -ifn "E:/Verilog programs/test_prep/test_prep.xst" -ofn "E:/Verilog programs/test_prep/test_prep.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "test_prep.ngc" test_prep.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_prep_map.ncd test_prep.ngd test_prep.pcf 
+par -w -intstyle ise -ol high -mt off test_prep_map.ncd test_prep.ncd test_prep.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_prep.twx test_prep.ncd -o test_prep.twr test_prep.pcf 

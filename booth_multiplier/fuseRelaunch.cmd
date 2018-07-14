@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Verilog programs/booth_multiplier/booth_multiplier_test_isim_beh.exe" -prj "E:/Verilog programs/booth_multiplier/booth_multiplier_test_beh.prj" "work.booth_multiplier_test" "work.glbl" 

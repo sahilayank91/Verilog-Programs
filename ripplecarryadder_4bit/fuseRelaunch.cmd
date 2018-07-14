@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Verilog programs/ripplecarryadder_4bit/ripplecarryadder_4bit_test_isim_beh.exe" -prj "E:/Verilog programs/ripplecarryadder_4bit/ripplecarryadder_4bit_test_beh.prj" "work.ripplecarryadder_4bit_test" "work.glbl" 

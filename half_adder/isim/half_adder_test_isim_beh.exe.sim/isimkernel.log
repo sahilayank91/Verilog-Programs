@@ -1,0 +1,29 @@
+Command line:
+   half_adder_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60844
+
+Thu Apr 20 14:43:24 2017
+
+
+ Elaboration Time: 0.140625 sec
+
+ Current Memory Usage: 866.054 Meg
+
+ Total Signals          : 19
+ Total Nets             : 17
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 99
+Total Line Count : 25
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 1023.6 Meg
+
+Thu Apr 20 14:49:39 2017
+

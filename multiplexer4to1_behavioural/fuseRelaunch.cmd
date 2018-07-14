@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Verilog programs/multiplexer4to1_behavioural/multiplexer4to1_structural_test_isim_beh.exe" -prj "E:/Verilog programs/multiplexer4to1_behavioural/multiplexer4to1_structural_test_beh.prj" "work.multiplexer4to1_structural_test" "work.glbl" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Verilog programs/full_subtractor/full_subtractor_test_isim_beh.exe" -prj "E:/Verilog programs/full_subtractor/full_subtractor_test_beh.prj" "work.full_subtractor_test" "work.glbl" 
